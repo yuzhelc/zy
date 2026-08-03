@@ -20,9 +20,7 @@
 
 ## 1. 基础配置与仓库初始化
 
-打开项目文件夹，通过 **Ctrl+`** 唤出终端，执行：
 
-```bash
 # 配置用户信息
 git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
