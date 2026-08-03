@@ -1,9 +1,4 @@
-# Git 功能探索记录 — 使用 VSCode 实战
-
-> 记录人：你的名字  
-> 日期：2025-04-07  
-> 环境：VS Code 1.88 + Git 2.44 + Windows 11  
-> 方式：图形界面（源代码管理面板）+ 内置终端命令  
+# Git各种功能的尝试过程
 
 ## 目录
 1. [基础配置与仓库初始化](#1-基础配置与仓库初始化)  
@@ -20,10 +15,8 @@
 
 ## 1. 基础配置与仓库初始化
 
+### 配置用户信息
+![BQACAgUAAyEGAASHRsPbAAEYZ0JqcC0FEl_qY7IvTu0s5Qch4nrzlAACPyYAApvPgVcw30uxOXnxCj0E.png](https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEYZ0JqcC0FEl_qY7IvTu0s5Qch4nrzlAACPyYAApvPgVcw30uxOXnxCj0E.png)
 
-# 配置用户信息
-git config --global user.name "Your Name"
-git config --global user.email "you@example.com"
-
-# 初始化仓库
-git init
+### 仓库的初始化
+![BQACAgUAAyEGAASHRsPbAAEYZ0FqcCyzA8lMufUILGRxTqZSgSpPCgACPCYAApvPgVdx8zWa_8_Y9D0E.png](https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEYZ0FqcCyzA8lMufUILGRxTqZSgSpPCgACPCYAApvPgVdx8zWa_8_Y9D0E.png)
