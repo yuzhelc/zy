@@ -1,14 +1,29 @@
 # Git各种功能的尝试过程
 
+---
 ## 目录
-1. [基础配置与仓库初始化](#1-基础配置与仓库初始化)  
-2. [暂存、提交与历史查看](#2-暂存提交与历史查看)  
-3. [合并与冲突解决](#4-合并与冲突解决)  
-4. [远程仓库协作](#5-远程仓库协作)  
-5. [标签与发布](#6-标签与发布)  
-6. [忽略文件与 .gitignore](#7-忽略文件与-gitignore)  
-7. [高级操作：储藏、变基、撤销](#8-高级操作储藏变基撤销)  
-8. [VSCode 专属技巧](#9-vscode-专属技巧)  
+
+- [Git各种功能的尝试过程](#git各种功能的尝试过程)
+  - [目录](#目录)
+  - [1. 基础配置与仓库初始化](#1-基础配置与仓库初始化)
+    - [配置用户信息](#配置用户信息)
+    - [仓库的初始化](#仓库的初始化)
+  - [2. 文件的暂存、提交和历史查看](#2-文件的暂存提交和历史查看)
+    - [文件的暂存](#文件的暂存)
+    - [文件的提交](#文件的提交)
+    - [文件的历史查看](#文件的历史查看)
+  - [3.分支管理](#3分支管理)
+    - [创建新分支main1并切换](#创建新分支main1并切换)
+    - [提交分支](#提交分支)
+    - [合并分支](#合并分支)
+  - [4.远程仓库协作](#4远程仓库协作)
+    - [同步更改文件](#同步更改文件)
+    - [远程仓库GitHUb](#远程仓库github)
+  - [5.标签](#5标签)
+    - [创建标签first version](#创建标签first-version)
+    - [显示标签](#显示标签)
+  - [6.储藏](#6储藏)
+    - [创建main2分支并将之储藏](#创建main2分支并将之储藏)
 
 ---
 
@@ -19,7 +34,7 @@
 ### 仓库的初始化
 ![BQACAgUAAyEGAASHRsPbAAEYZ0FqcCyzA8lMufUILGRxTqZSgSpPCgACPCYAApvPgVdx8zWa_8_Y9D0E.png](https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEYZ0FqcCyzA8lMufUILGRxTqZSgSpPCgACPCYAApvPgVdx8zWa_8_Y9D0E.png)
 
-## 2.文件的暂存、提交和历史查看
+## 2. 文件的暂存、提交和历史查看
 ### 文件的暂存
 ![BQACAgUAAyEGAASHRsPbAAEYZ1RqcC335MtH6bLQ15q8mUsbXc91JQACUSYAApvPgVcM2DQyqWPunD0E.png](https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEYZ1RqcC335MtH6bLQ15q8mUsbXc91JQACUSYAApvPgVcM2DQyqWPunD0E.png)
 
@@ -27,7 +42,7 @@
 ![BQACAgUAAyEGAASHRsPbAAEYZ15qcC7T2qNr3slqVQ7DpGpR0gagSgACWyYAApvPgVeCKgVocfcSsj0E.png](https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEYZ15qcC7T2qNr3slqVQ7DpGpR0gagSgACWyYAApvPgVeCKgVocfcSsj0E.png)
 
 ### 文件的历史查看
-![alt text](image.png)
+![BQACAgUAAyEGAASHRsPbAAEYaSBqcD8AAdmKgzSCAzYhAq8FJBwD364AAj8oAAKbz4FXFVRFUOObgr09BA.png](https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEYaSBqcD8AAdmKgzSCAzYhAq8FJBwD364AAj8oAAKbz4FXFVRFUOObgr09BA.png)
 
 ## 3.分支管理
 ### 创建新分支main1并切换
@@ -40,3 +55,21 @@
 ![BQACAgUAAyEGAASHRsPbAAEYZ-xqcDRn8BTEiwnW27_Vy_KD8fYZQwAC7iYAApvPgVfjX0p-esuEkz0E.png](https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEYZ-xqcDRn8BTEiwnW27_Vy_KD8fYZQwAC7iYAApvPgVfjX0p-esuEkz0E.png)
 
 ## 4.远程仓库协作
+### 同步更改文件
+![BQACAgUAAyEGAASHRsPbAAEYaUJqcEAvvEG74OGUVRsAAeO5of1PdGAAAmUoAAKbz4FXYMjeZStakQE9BA.png](https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEYaUJqcEAvvEG74OGUVRsAAeO5of1PdGAAAmUoAAKbz4FXYMjeZStakQE9BA.png)
+
+### 远程仓库GitHUb
+![BQACAgUAAyEGAASHRsPbAAEYaVFqcECvuFRjNzfC0rIan5_jEbnKbgACdSgAApvPgVdJIrr2kOU_xz0E.png](https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEYaVFqcECvuFRjNzfC0rIan5_jEbnKbgACdSgAApvPgVdJIrr2kOU_xz0E.png)
+
+## 5.标签
+### 创建标签first version
+![BQACAgUAAyEGAASHRsPbAAEYaVtqcEDxPyFVKtfToZdEg85OqwPz-gACfygAApvPgVckvXDDjQ-X0z0E.png](https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEYaVtqcEDxPyFVKtfToZdEg85OqwPz-gACfygAApvPgVckvXDDjQ-X0z0E.png)
+
+### 显示标签
+![BQACAgUAAyEGAASHRsPbAAEYaV1qcEEdnAQJ2JYwhTsf9VEYuLr1aAACgigAApvPgVdzfD_6D5bLcj0E.png](https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEYaV1qcEEdnAQJ2JYwhTsf9VEYuLr1aAACgigAApvPgVdzfD_6D5bLcj0E.png)
+
+## 6.储藏
+### 创建main2分支并将之储藏
+![BQACAgUAAyEGAASHRsPbAAEYaWhqcEFZClf0-xRn0nBk60YnoxXwjgACjSgAApvPgVdpvrosbC4QvD0E.png](https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEYaWhqcEFZClf0-xRn0nBk60YnoxXwjgACjSgAApvPgVdpvrosbC4QvD0E.png)
+
+---
