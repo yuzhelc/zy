@@ -3,13 +3,12 @@
 ## 目录
 1. [基础配置与仓库初始化](#1-基础配置与仓库初始化)  
 2. [暂存、提交与历史查看](#2-暂存提交与历史查看)  
-3. [分支管理](#3-分支管理)  
-4. [合并与冲突解决](#4-合并与冲突解决)  
-5. [远程仓库协作](#5-远程仓库协作)  
-6. [标签与发布](#6-标签与发布)  
-7. [忽略文件与 .gitignore](#7-忽略文件与-gitignore)  
-8. [高级操作：储藏、变基、撤销](#8-高级操作储藏变基撤销)  
-9. [VSCode 专属技巧](#9-vscode-专属技巧)  
+3. [合并与冲突解决](#4-合并与冲突解决)  
+4. [远程仓库协作](#5-远程仓库协作)  
+5. [标签与发布](#6-标签与发布)  
+6. [忽略文件与 .gitignore](#7-忽略文件与-gitignore)  
+7. [高级操作：储藏、变基、撤销](#8-高级操作储藏变基撤销)  
+8. [VSCode 专属技巧](#9-vscode-专属技巧)  
 
 ---
 
@@ -31,5 +30,13 @@
 ![alt text](image.png)
 
 ## 3.分支管理
-### 创建新分支main1
+### 创建新分支main1并切换
 ![BQACAgUAAyEGAASHRsPbAAEYZ39qcDDTBhiBheeTpvDp3E-lczsrUQACfiYAApvPgVePVNuPRuJ9ez0E.png](https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEYZ39qcDDTBhiBheeTpvDp3E-lczsrUQACfiYAApvPgVePVNuPRuJ9ez0E.png)
+
+### 提交分支
+![BQACAgUAAyEGAASHRsPbAAEYZ6xqcDJ9jlwQt5leaCc1vjyEeoT-hAACqyYAApvPgVe7DHM5SRwIID0E.png](https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEYZ6xqcDJ9jlwQt5leaCc1vjyEeoT-hAACqyYAApvPgVe7DHM5SRwIID0E.png)
+
+### 合并分支
+![BQACAgUAAyEGAASHRsPbAAEYZ-xqcDRn8BTEiwnW27_Vy_KD8fYZQwAC7iYAApvPgVfjX0p-esuEkz0E.png](https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEYZ-xqcDRn8BTEiwnW27_Vy_KD8fYZQwAC7iYAApvPgVfjX0p-esuEkz0E.png)
+
+## 4.远程仓库协作
